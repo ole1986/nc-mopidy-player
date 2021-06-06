@@ -1,0 +1,15 @@
+{
+    "name": "ole1986/nextcloud-mopidy-player",
+    "description": "Mopidy Player",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Ole Koeckemann"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

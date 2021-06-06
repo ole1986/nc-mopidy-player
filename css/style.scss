@@ -1,0 +1,37 @@
+#app-content-vue  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app-content-vue > div {
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#app-content-vue div.vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app-content-vue h2 {
+    color: var(--color-main-text);
+    text-align: center;
+    font-size: 32px;
+    line-height: 130%;
+    padding: 0vh 16px 0px;
+}
+
+#app-content-vue label {
+    font-size: 80%;
+}
+
+#app-content-vue .slidecontainer {
+    transform: rotate(-90deg)
+}
+
+#app-content-vue .bt {
+    padding: 1em;
+}

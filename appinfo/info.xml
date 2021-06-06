@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>mopidyplayer</id>
+    <name>Mopidy Player</name>
+    <summary>Mopidy Player</summary>
+    <description><![CDATA[Mopidy Player implementation]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="app@cloud86.de" >Ole Koeckemann</author>
+    <namespace>MopidyPlayer</namespace>
+    <category>tools</category>
+    <dependencies>
+        <nextcloud min-version="12" max-version="20"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Mopidy Player</name>
+            <route>mopidyplayer.page.index</route>
+            
+        </navigation>
+    </navigations>
+</info>
